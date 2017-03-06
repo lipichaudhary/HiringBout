@@ -13,22 +13,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 		
 	</head>
 	<body>
-	
 		
 		<div class="container" id="main">
 
-	<div class="navbar navbar-fixed-top">
 	
 	<div class="navbar navbar-fixed-top">
 	<div class="container">
@@ -40,7 +38,7 @@
 			<span class="icon-bar"></span>
 		</button>
 	
-		<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
+		<a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Your Logo"></a>
 		
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav">
@@ -113,8 +111,7 @@
 	
 	</div><!-- end container -->
 </div><!-- end navbar -->
-		
-	</div><!-- end navbar -->
+
 	
 	
 	<div class="carousel slide" id="myCarousel">
