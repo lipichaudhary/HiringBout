@@ -20,9 +20,7 @@
 	</head>
 	
 	<body>
- 			
-				
-				<div class="navbar navbar-top-fixed">
+ 			<div class="navbar navbar-top-fixed">
 				
 					<div class="container" id="forCollapsed">
 					
@@ -46,8 +44,48 @@
 				</div> <!-- top nav closed -->
 				
 			<div class="container" id="main">  <!-- main body container. Top nav and footer is kept outside it. -->
-		 	
-		 	<div class="jumbotron">
+
+
+	
+	<!-- create own login panel -->
+	<div class=" row col-sm-6 feature">
+	<div class="panel">
+	
+		<div class="panel-heading col-lg-6" >
+		
+			<h4 class="panel-title text-center">Sign in</h4>
+		
+		</div>
+	<!-- 
+		<img src="assets/images/login_face2.jpg" alt="HTML5" class="img-circle img-center	" -->
+		
+		
+		<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-6">
+								<form id="login-form" action="#" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember"> Remember Me</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											</div>
+										</div>
+									</div>
+		
+	</div> <!-- panel ends -->
+	</div> <!-- div ends -->
+			 	
+ 	<!-- 	 	<div class="jumbotron">
 			  <div class="container">
         <div class="row">
 			<div class="col-md-6 col-md-offset-3">
@@ -122,22 +160,22 @@
 			</div>
 		</div>
 	</div>
-			</div>
+			</div> -->
 			
 			
 		 	
 			</div> <!--  main container closed -->
-	<footer>
+<!-- 	<!-- <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2">
 			<h6>Copyright &copy; 2013 {name}</h6>
-			</div><!-- end col-sm-2 -->
+			</div>end col-sm-2
 			
 			<div class="col-sm-4">
 				<h6>About Us</h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div><!-- end col-sm-4 -->
+			</div>end col-sm-4
 			
 			<div class="col-sm-2">
 				<h6>Navigation</h6>
@@ -147,7 +185,7 @@
 					<li><a href="#">Links</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
-			</div><!-- end col-sm-2 -->
+			</div>end col-sm-2
 			
 			<div class="col-sm-2">
 				<h6>Follow Us</h6>
@@ -156,14 +194,14 @@
 					<li><a href="#">Facebook</a></li>
 					<li><a href="#">Google Plus</a></li>
 				</ul>
-			</div><!-- end col-sm-2 -->
+			</div>end col-sm-2
 			
 			<div class="col-sm-2">
 				<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
-			</div><!-- end col-sm-2 -->
-		</div><!-- end row -->
-	</div><!-- end container -->
-</footer>	
+			</div>end col-sm-2
+		</div>end row
+	</div>end container
+</footer> -->	
 			
 	</body>
 </html>
