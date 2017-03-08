@@ -1,15 +1,11 @@
-
-
-<!DOCTYPE html>
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		
-		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
-		<meta name="description" content="">
-		
-		<!-- Mobile viewport optimized -->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>CodingBout</title>
+	<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
@@ -20,155 +16,154 @@
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="includes/js/modernizr-2.6.2.min.js"></script>
-		
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>		
 	</head>
+	
 	<body>
-		
-		<div class="container" id="main">
-
-	
-	<div class="navbar navbar-fixed-top">
-	<div class="container">
-		
-		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-	
-		<a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Your Logo"></a>
-		
-		<div class="nav-collapse collapse navbar-responsive-collapse">
-			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="#">Home</a>
-				</li>
+ 			
 				
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+				<div class="navbar navbar-top-fixed">
+				
+					<div class="container" id="forCollapsed">
 					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Web Design</a>
-						</li>
-						
-						<li>
-							<a href="#">Web Development</a>
-						</li>
-						
-						<li>
-							<a href="#">SEO</a>
-						</li>
-						
-						<li class="divider"></li>
-						
-						<li class="dropdown-header">More Services</li>
-						
-						<li>
-							<a href="#">Content Creation</a>
-						</li>
-						
-						<li>
-							<a href="#">Social Media Marketing</a>
-						</li>
-					</ul><!-- end dropdown-menu -->
-				</li>
-			</ul>
+						<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+						<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 			
-			<form class="navbar-form pull-left">
-				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
-				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-			</form><!-- end navbar-form -->
+						<a class="navbar-brand" href="/"><img src="assets/images/logo.png"></a>
+						
+						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
+						
+						<!-- Nothing to collapse for login page -->
+						
+						</div> <!-- CollapseNav closed -->
+									
+					</div> <!-- forCollapsed container closed-->
+				
+				</div> <!-- top nav closed -->
+				
+			<div class="container" id="main">  <!-- main body container. Top nav and footer is kept outside it. -->
+		 	
+		 	<div class="jumbotron">
+			  <div class="container">
+        <div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-6">
+								<a href="#" class="active" id="login-form-link">Login</a>
+							</div>
+							<div class="col-xs-6">
+								<a href="#" id="register-form-link">Register</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="#" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember"> Remember Me</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="text-center">
+													<a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="register-form" action="http://phpoll.com/register/process" method="post" role="form" style="display: none;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			</div>
 			
-			<ul class="nav navbar-nav pull-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
-					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
-						</li>
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
-						</li>
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
-						</li>
-						
-						<li class="divider"></li>
-						
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
-						</li>
-					</ul>
-				</li>
-			</ul><!-- end nav pull-right -->
-		</div><!-- end nav-collapse -->
-	
+			
+		 	
+			</div> <!--  main container closed -->
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+			<h6>Copyright &copy; 2013 {name}</h6>
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-4">
+				<h6>About Us</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div><!-- end col-sm-4 -->
+			
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-2">
+				<h6>Follow Us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-2">
+				<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
+			</div><!-- end col-sm-2 -->
+		</div><!-- end row -->
 	</div><!-- end container -->
-</div><!-- end navbar -->
-
-	
-	
-	<div class="carousel slide" id="myCarousel">
-	
-	</div><!-- end myCarousel -->
-	
-	
-	<div class="row" id="bigCallout">
-
-	</div><!-- end row -->
-	
-	
-	<div class="row" id="featuresHeading">
-
-	</div><!-- end row -->
-	
-	
-	<div class="row" id="features">
-
-	</div><!-- end row -->
-	
-	
-	<div class="row" id="moreInfo">
-
-	</div><!-- end row -->
-	
-	
-	<div class="row" id="moreCourses">
-		
-	</div><!-- end row -->
-	
-</div><!-- end container -->
-
-
-<footer>
-	
-</footer>
-	
-	
-	
-	<!-- All Javascript at the bottom of the page for faster page loading -->
-		
-	<!-- First try for the online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
-	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
-	
-
-
-	
+</footer>	
+			
 	</body>
 </html>
-
