@@ -20,7 +20,9 @@
 	</head>
 	
 	<body>
- 			<div class="navbar navbar-top-fixed">
+
+<!-- Navigation Top HTML Starts -->
+ 			<div class="navbar navbar-top-fixed body-padding">
 				
 					<div class="container" id="forCollapsed">
 					
@@ -35,34 +37,29 @@
 						
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
-						<!-- Nothing to collapse for login page -->
-						
+						<div>
+							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="#" class="btn btn-large btn-link">Register</a> </h4>
+						</div>
 						</div> <!-- CollapseNav closed -->
 									
 					</div> <!-- forCollapsed container closed-->
 				
 				</div> <!-- top nav closed -->
-				
-			<div class="container" id="main">  <!-- main body container. Top nav and footer is kept outside it. -->
+<!-- Navigation Top HTML ends -->
+			
+<!-- Main Body HTML starts -->				
+			<div class="container" id="main">   <!-- main body container. Top nav and footer is kept outside it. -->
 
-
+		<div class="row">
+		<div class="panel panel-default panelstyle" id="panel">
 	
-	<!-- create own login panel -->
-	<div class=" row col-sm-6 feature">
-	<div class="panel">
-	
-		<div class="panel-heading col-lg-6" >
-		
-			<h4 class="panel-title text-center">Sign in</h4>
-		
-		</div>
-	<!-- 
-		<img src="assets/images/login_face2.jpg" alt="HTML5" class="img-circle img-center	" -->
-		
+			<div class="panel-heading" >
+				<h4 class="panel-title text-center">Sign in</h4>
+			</div><!-- Panel Title Ends -->
 		
 		<div class="panel-body">
-						<div class="row">
-							<div class="col-lg-6">
+				<form>
+						<div class="form-group">
 								<form id="login-form" action="#" method="post" role="form" style="display: block;">
 									<div class="form-group">
 										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
@@ -70,138 +67,28 @@
 									<div class="form-group">
 										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
 									</div>
-									<div class="form-group text-center">
+									<div class="form-group">
 										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
 										<label for="remember"> Remember Me</label>
 									</div>
 									<div class="form-group">
 										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											<div class="col-sm-12 col-sm-offset-3">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Log In">
 											</div>
 										</div>
-									</div>
-		
+									</div> 
+								</form>
+						</div>
+				</form> <!-- form ends -->
+				
 	</div> <!-- panel ends -->
-	</div> <!-- div ends -->
-			 	
- 	<!-- 	 	<div class="jumbotron">
-			  <div class="container">
-        <div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<div class="panel panel-login">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-6">
-								<a href="#" class="active" id="login-form-link">Login</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="#" id="register-form-link">Register</a>
-							</div>
-						</div>
-						<hr>
-					</div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-lg-12">
-								<form id="login-form" action="#" method="post" role="form" style="display: block;">
-									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
-									</div>
-									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-									</div>
-									<div class="form-group text-center">
-										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-										<label for="remember"> Remember Me</label>
-									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-lg-12">
-												<div class="text-center">
-													<a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</form>
-								<form id="register-form" action="http://phpoll.com/register/process" method="post" role="form" style="display: none;">
-									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
-									</div>
-									<div class="form-group">
-										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
-									</div>
-									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-									</div>
-									<div class="form-group">
-										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
-									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-			</div> -->
-			
+	</div> <!-- div ends --> 	
+	</div>	<!-- row ends -->
 			
 		 	
 			</div> <!--  main container closed -->
-<!-- 	<!-- <footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-2">
-			<h6>Copyright &copy; 2013 {name}</h6>
-			</div>end col-sm-2
-			
-			<div class="col-sm-4">
-				<h6>About Us</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>end col-sm-4
-			
-			<div class="col-sm-2">
-				<h6>Navigation</h6>
-				<ul class="unstyled">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>end col-sm-2
-			
-			<div class="col-sm-2">
-				<h6>Follow Us</h6>
-				<ul class="unstyled">
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Google Plus</a></li>
-				</ul>
-			</div>end col-sm-2
-			
-			<div class="col-sm-2">
-				<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
-			</div>end col-sm-2
-		</div>end row
-	</div>end container
-</footer> -->	
+	
 			
 	</body>
 </html>
