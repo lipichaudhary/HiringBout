@@ -22,7 +22,7 @@
 	<body>
 
 <!-- Navigation Top HTML Starts -->
- 			<div class="navbar navbar-top-fixed body-padding">
+			<div class="navbar navbar-top-fixed body-padding">
 				
 					<div class="container" id="forCollapsed">
 					

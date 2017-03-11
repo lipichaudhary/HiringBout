@@ -41,12 +41,20 @@
 		<a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Your Logo"></a>
 		
 		<div class="nav-collapse collapse navbar-responsive-collapse">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav nav-pills">
 				<li class="active">
-					<a href="#">Home</a>
+					<a href="#">Contests</a>
 				</li>
 				
-				<li class="dropdown">
+				<li>
+					<a href="#">Jobs</a>
+				</li>
+				
+				<li>
+					<a href="#">Blog</a>
+				</li>
+				
+			<!-- 	<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
 					
 					<ul class="dropdown-menu">
@@ -73,16 +81,17 @@
 						<li>
 							<a href="#">Social Media Marketing</a>
 						</li>
-					</ul><!-- end dropdown-menu -->
-				</li>
+					</ul>end dropdown-menu
+				</li> -->
 			</ul>
 			
 			<form class="navbar-form pull-left">
-				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+				<input type="text" class="form-control styleForSearchInput" placeholder="Search this site..." id="searchInput" >
 				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-			</form><!-- end navbar-form -->
-			
-			<ul class="nav navbar-nav pull-right">
+			</form>  <!-- end navbar-form -->
+
+	
+	<ul class="nav navbar-nav pull-right">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
 					
@@ -96,7 +105,7 @@
 						</li>
 						
 						<li>
-							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Feedback</a>
 						</li>
 						
 						<li class="divider"></li>
@@ -111,8 +120,6 @@
 	
 	</div><!-- end container -->
 </div><!-- end navbar -->
-
-	
 	
 	<div class="carousel slide" id="myCarousel">
 	
@@ -158,13 +165,13 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="assets/includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 	
 	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
+	<script src="assets/includes/js/script.js"></script>
 	
 
 
