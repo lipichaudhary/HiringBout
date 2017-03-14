@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html>
@@ -43,6 +41,10 @@
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav nav-pills">
 				<li class="active">
+					<a href="#">Dashboard</a>
+				</li>
+				
+				<li>
 					<a href="#">Contests</a>
 				</li>
 				
@@ -128,8 +130,7 @@
 	
 	<div class="row" id="bigCallout">
 
-	</div><!-- end row -->
-	
+	</div><!-- end bigCallout -->	
 	
 	<div class="row" id="featuresHeading">
 
@@ -149,10 +150,11 @@
 	<div class="row" id="moreCourses">
 		
 	</div><!-- end row -->
+
 	
 </div><!-- end container -->
 
-
+<h4> Hi {userName}</h4>
 <footer>
 	
 </footer>
@@ -179,3 +181,4 @@
 	</body>
 </html>
 
+Contact GitHub 
