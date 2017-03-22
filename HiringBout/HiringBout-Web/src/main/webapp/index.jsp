@@ -8,5 +8,8 @@
 </head>
 <body>
 <% response.sendRedirect("login.jsp"); %>
+<!-- <a href="login.jsp">Click for moving to sign in page</a> -->
 </body>
 </html>
+
+<!-- added a comment -->
