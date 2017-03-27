@@ -38,7 +38,7 @@
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
 						<div>
-							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="#" class="btn btn-large btn-link">Register</a> </h4>
+							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/home" class="btn btn-large btn-link">Register</a> </h4>
 						</div>
 						</div> <!-- CollapseNav closed -->
 									
@@ -58,11 +58,10 @@
 			</div><!-- Panel Title Ends -->
 		
 		<div class="panel-body">
-				<form>
 						<div class="form-group">
-								<form id="login-form" action="/HiringBout-web/home.jsp" method="post" role="form" style="display: block;">
+								<form id="login-form" action="home" method="post" role="form" style="display: block;">
 									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username">
 									</div>
 									<div class="form-group">
 										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
@@ -74,14 +73,13 @@
 									<div class="form-group">
 										<div class="row">
 											<div class="col-sm-12 col-sm-offset-3">
-												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Log In">
+												<input type="submit" id="login-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Log In">
 											</div>
 										</div>
 									</div> 
 								</form>
 						</div>
-				</form> <!-- form ends -->
-				
+							
 	</div> <!-- panel ends -->
 	</div> <!-- div ends --> 	
 	</div>	<!-- row ends -->
