@@ -13,10 +13,10 @@
 		<link href="assets/includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Custom CSS -->
-		<link href="<c:url value="assets/includes/css/styles.css" /> rel="stylesheet">
+		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="<c:url value="includes/js/modernizr-2.6.2.min.js" />"  ></script>		
+		<script src="assets/includes/js/modernizr-2.6.2.min.js" />"  ></script>		
 	</head>
 	
 	<body>

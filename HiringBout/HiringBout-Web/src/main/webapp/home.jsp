@@ -113,7 +113,7 @@
 						<li class="divider"></li>
 						
 						<li>
-							<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+							<a href="/HiringBout-Web/login"><span class="glyphicon glyphicon-off"></span> Sign out</a>
 						</li>
 					</ul>
 				</li>
