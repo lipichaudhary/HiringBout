@@ -154,7 +154,7 @@
 	
 </div><!-- end container -->
 
-<h4> Hi {userName}</h4>
+<h4> Hi ${name}</h4>
 <footer>
 	
 </footer>

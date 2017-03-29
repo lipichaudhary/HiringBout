@@ -7,7 +7,7 @@
 <title></title>
 </head>
 <body>
-<% response.sendRedirect("login.jsp"); %>
+<% response.sendRedirect("login"); %>
 <!-- <a href="login.jsp">Click for moving to sign in page</a> -->
 </body>
 </html>
