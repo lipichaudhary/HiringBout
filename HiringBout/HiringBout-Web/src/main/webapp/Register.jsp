@@ -2,27 +2,25 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
-		
-		<!-- Website Title & Description for Search Engine purposes -->
-		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
-		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
-		
-		<!-- Mobile viewport optimized -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>CodingBout</title>
+	<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="includes/css/styles.css">
+		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
-		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 		
-	</head>
-	<body>
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="assets/includes/js/modernizr-2.6.2.min.js" />"  > </script>		
+    </head>
+
+<body>
 	<div class="container" id="main">
 	<div class="row">
 	<div class="panel panel-default panelstyle" id="panel">
@@ -33,7 +31,7 @@
 	
 	<div class="panel-body">
       <div class="form-group">
-        <form id="login-form" action="home" method="post" role="form" style="display: block;">
+        <form id="login-form" action="RegistrationSuccess" method="post" role="form" style="display: block;">
          <div class="form-group">
           <input type="text" name="firstname" id="fistname" tabindex="1" class="form-control" placeholder="FirstName">
          </div>
@@ -52,7 +50,12 @@
 		  <div class="form-group">
           <input type="text" name="contact" id="contact" tabindex="6" class="form-control" placeholder="Contact Number">
 		  </div>
-         
+          <div class="form-group">
+          <input type="text" name="username" id="username" tabindex="6" class="form-control" placeholder="Your Account User Name">
+		  </div>
+          <div class="form-group">
+          <input type="text" name="passowrd" id="passowrd" tabindex="6" class="form-control" placeholder="Your Account Password">
+		  </div>
          <div class="form-group">
           <div class="row">
            <div class="col-sm-12 col-sm-offset-3">
