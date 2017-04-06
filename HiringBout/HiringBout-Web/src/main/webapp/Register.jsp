@@ -15,9 +15,10 @@
 		<!-- Custom CSS -->
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
-		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="assets/includes/js/modernizr-2.6.2.min.js" />"  ></script>		
-	</head>
+		
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="assets/includes/js/modernizr-2.6.2.min.js" />"  > </script>		
+    </head>
 
 <body>
 	<div class="container" id="main">
@@ -50,10 +51,10 @@
           <input type="text" name="contact" id="contact" tabindex="6" class="form-control" placeholder="Contact Number">
 		  </div>
           <div class="form-group">
-          <input type="text" name="username" id="contact" tabindex="6" class="form-control" placeholder="Your Account User Name">
+          <input type="text" name="username" id="username" tabindex="6" class="form-control" placeholder="Your Account User Name">
 		  </div>
           <div class="form-group">
-          <input type="text" name="passowrd" id="contact" tabindex="6" class="form-control" placeholder="Your Account Password">
+          <input type="text" name="passowrd" id="passowrd" tabindex="6" class="form-control" placeholder="Your Account Password">
 		  </div>
          <div class="form-group">
           <div class="row">
