@@ -33,12 +33,12 @@
 							<span class="icon-bar"></span>
 						</button>
 			
-						<a class="navbar-brand" href="/"><img src="assets/images/logo.png"></a>
+						<a class="navbar-brand" href="/"><img src="assets/images/CODELOG.png"></a>
 						
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
 						<div>
-							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/home" class="btn btn-large btn-link">Register</a> </h4>
+							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/RegistrationForm" class="btn btn-large btn-link">Register</a> </h4>
 						</div>
 						</div> <!-- CollapseNav closed -->
 									
@@ -64,7 +64,7 @@
 										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username">
 									</div>
 									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+										<input type="text" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
 									</div>
 									<div class="form-group">
 										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
