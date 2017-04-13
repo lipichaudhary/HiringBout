@@ -1,0 +1,90 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+ .styleForSearchInput{
+ 	width:200px;
+ }
+ 
+   
+   login-form-link{
+   	margin 20px;
+   }
+   
+   .panelstyle{
+   max-width:400px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:100px;
+   }
+   
+   .footer {
+  position: fixed;
+  margin-top: 2%;
+  height: 150 px;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
