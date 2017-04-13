@@ -38,7 +38,7 @@
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
 						<div>
-							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/RegistrationForm" class="btn btn-large btn-link">Register</a> </h4>
+							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/registrationform" class="btn btn-large btn-link">Register</a> </h4>
 						</div>
 						</div> <!-- CollapseNav closed -->
 									

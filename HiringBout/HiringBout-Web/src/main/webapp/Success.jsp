@@ -8,5 +8,6 @@
 </head>
 <body>
 You Successfully registered!
+<a href="/HiringBout-Web/login">click here to redirect to login page</a>
 </body>
 </html>

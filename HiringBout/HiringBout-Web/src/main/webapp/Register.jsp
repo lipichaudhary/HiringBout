@@ -31,7 +31,7 @@
 	
 	<div class="panel-body">
       <div class="form-group">
-        <form id="login-form" action="RegistrationSuccess" method="post" role="form" style="display: block;">
+        <form id="login-form" action="registrationsuccess" method="post" role="form" style="display: block;">
          <div class="form-group">
           <input type="text" name="firstname" id="fistname" tabindex="1" class="form-control" placeholder="FirstName">
          </div>
@@ -39,22 +39,22 @@
           <input type="text" name="lastname" id="lastname" tabindex="2" class="form-control" placeholder="LastName">
 		  </div>
 		  <div class="form-group">
-          <input type="text" name="Email Address" id="emailid" tabindex="3" class="form-control" placeholder="Email Address">
+          <input type="text" name="emailaddress" id="emailaddress" tabindex="3" class="form-control" placeholder="Email Address">
 		  </div>
 		  <div class="form-group">
           <input type="text" name="age" id="age" tabindex="4" class="form-control" placeholder="Age">
 		  </div>
 		  <div class="form-group">
-          <input type="text" name="college" id="college" tabindex="5" class="form-control" placeholder="College Name">
+          <input type="text" name="collegename" id="collegename" tabindex="5" class="form-control" placeholder="College Name">
 		  </div>
 		  <div class="form-group">
-          <input type="text" name="contact" id="contact" tabindex="6" class="form-control" placeholder="Contact Number">
+          <input type="text" name="contactnumber" id="contactnumber" tabindex="6" class="form-control" placeholder="Contact Number">
 		  </div>
           <div class="form-group">
-          <input type="text" name="username" id="username" tabindex="6" class="form-control" placeholder="Your Account User Name">
+          <input type="text" name="accusername" id="accusername" tabindex="7" class="form-control" placeholder="Your Account User Name">
 		  </div>
           <div class="form-group">
-          <input type="text" name="passowrd" id="passowrd" tabindex="6" class="form-control" placeholder="Your Account Password">
+          <input type="text" name="accpassword" id="accpassowrd" tabindex="8" class="form-control" placeholder="Your Account Password">
 		  </div>
          <div class="form-group">
           <div class="row">

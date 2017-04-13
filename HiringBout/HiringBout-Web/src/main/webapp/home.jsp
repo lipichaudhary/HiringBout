@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
+<head>
 		
 		<!-- Website Title & Description for Search Engine purposes -->
 		<title></title>
@@ -20,14 +20,12 @@
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 		
-	</head>
-	<body>
-		
-		<div class="container" id="main">
-
+</head>
 	
-	<div class="navbar navbar-fixed-top">
-	<div class="container">
+<body>	
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+		<div class="container">
 		
 		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
 		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
@@ -93,7 +91,7 @@
 			</form>  <!-- end navbar-form -->
 
 	
-	<ul class="nav navbar-nav pull-right">
+			<ul class="nav navbar-nav pull-right">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
 					
@@ -119,40 +117,39 @@
 				</li>
 			</ul><!-- end nav pull-right -->
 		</div><!-- end nav-collapse -->
+		</div><!-- end container -->
+		</div><!-- end navbar -->
 	
-	</div><!-- end container -->
-</div><!-- end navbar -->
+		<div class="carousel slide" id="myCarousel">
 	
-	<div class="carousel slide" id="myCarousel">
-	
-	</div><!-- end myCarousel -->
+		</div><!-- end myCarousel -->
 	
 	
-	<div class="row" id="bigCallout">
+		<div class="row" id="bigCallout">
 
-	</div><!-- end bigCallout -->	
+		</div><!-- end bigCallout -->	
 	
-	<div class="row" id="featuresHeading">
+		<div class="row" id="featuresHeading">
 
-	</div><!-- end row -->
+		</div><!-- end row -->
 	
 	
-	<div class="row" id="features">
+		<div class="row" id="features">
 
-	</div><!-- end row -->
+		</div><!-- end row -->
 	
 	
-	<div class="row" id="moreInfo">
+		<div class="row" id="moreInfo">
 
-	</div><!-- end row -->
+		</div><!-- end row -->
 	
 	
-	<div class="row" id="moreCourses">
+		<div class="row" id="moreCourses">
 		
-	</div><!-- end row -->
+		</div><!-- end row -->
 
 	
-</div><!-- end container -->
+		</div><!-- end container -->
 
 <h4> Hi ${name}</h4>
 <footer>
@@ -180,5 +177,3 @@
 	
 	</body>
 </html>
-
-Contact GitHub 
