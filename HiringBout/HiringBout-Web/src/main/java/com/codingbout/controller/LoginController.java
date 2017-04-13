@@ -36,19 +36,14 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="/login", method=RequestMethod.GET)
-	public String showLoginForm(ModelMap model, HttpSession session){
-		if(session.getAttribute("User")==null){
+	public String showLoginForm(ModelMap model){
 			model.put("UserData", new User());
-			return "login"; //error.jsp needs to be create and this situation needs to be checked
-		}
-		else{
-			return "home";
-		}
+			return "login";
 	}
 	
 	@RequestMapping(value="/home", method=RequestMethod.POST)
 	public String doLogin(ModelMap model, @ModelAttribute(value="logindata") LoginBean logindata, BindingResult br, HttpSession session){
-		if(logindata.getUsername()!=null && logindata.getPassword()!=null /*&& session.getAttribute("User")==null*/){
+		if(logindata.getUsername()!=null && logindata.getPassword()!=null){
 			boolean userexist = userService.doLogin(logindata);
 			if(userexist==true){
 				return "home";

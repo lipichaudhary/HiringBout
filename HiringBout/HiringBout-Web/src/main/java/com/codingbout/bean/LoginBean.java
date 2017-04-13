@@ -12,12 +12,12 @@ public class LoginBean {
 	@NotEmpty
 	@Size(min=1, max=50)
 	private String password;
-
+	
 	public String getUsername() {
 		return username;
 	}
 
-	public void setUserame(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
 
@@ -28,6 +28,5 @@ public class LoginBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
 	
 }

@@ -1,5 +1,12 @@
 package com.codingbout.dao;
 
-public interface LoginDAO {
-	public boolean checkLogin(String userName, String userPassword);
+import org.springframework.stereotype.Component;
+
+import com.codingbout.bean.LoginBean;
+import com.codingbout.model.User;
+
+
+public interface UserDAO {
+	public void saveUser(User user);
+	public boolean doLogin(LoginBean loginBean);
 }

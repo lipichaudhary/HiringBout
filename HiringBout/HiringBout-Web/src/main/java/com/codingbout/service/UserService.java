@@ -1,5 +1,13 @@
 package com.codingbout.service;
 
-public interface LoginService {
-	public boolean checkLogin(String userName, String userPassword); //added
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+import com.codingbout.bean.LoginBean;
+import com.codingbout.model.User;
+
+
+public interface UserService {
+	public boolean doLogin(LoginBean loginBean); //added
+	public void saveUser(User user);
 }
