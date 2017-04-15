@@ -16,7 +16,11 @@
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="assets/includes/js/modernizr-2.6.2.min.js" />"  ></script>		
+		<script src="assets/includes/js/modernizr-2.6.2.min.js" />"  ></script>	
+		
+		<!-- Include script.js in the head, before any other Javascript -->
+		<script src="assets/includes/js/script.js" />"  ></script>
+			
 	</head>
 	
 	<body>
@@ -57,9 +61,12 @@
 				<h4 class="panel-title text-center">Sign in</h4>
 			</div><!-- Panel Title Ends -->
 		
+
+		<div id="loginErrors" class="alert alert-danger loginformvalidation" role="alert">Either the Username or Password is left empty. Please enter login Credentials.</div>
+		<div id="loginErrors" class="alert alert-danger " role="alert">${authenticationFailMessage}</div>
 		<div class="panel-body">
 						<div class="form-group">
-								<form id="login-form" action="home" method="post" role="form" style="display: block;">
+								<form id="login-form" action="home" method="post" role="form" style="display: block;" onsubmit="return validateLoginForm()">
 									<div class="form-group">
 										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username">
 									</div>
@@ -86,7 +93,7 @@
 			
 		 	
 			</div> <!--  main container closed -->
-	
+		
 			
 	</body>
 </html>

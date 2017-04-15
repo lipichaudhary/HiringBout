@@ -45,7 +45,6 @@ public class RegisterController {
 			return "register";
 		}
 		else{
-			user.getFirstname();
 			userService.saveUser(user);
 			session.setAttribute("user", user);
 			System.out.println("Posting Form");

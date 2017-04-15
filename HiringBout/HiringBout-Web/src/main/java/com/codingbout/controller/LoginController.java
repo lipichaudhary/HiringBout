@@ -36,19 +36,19 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="/login", method=RequestMethod.GET)
-	public String showLoginForm(ModelMap model){
-			model.put("UserData", new User());
-			return "login";
+	public String showLoginForm(ModelMap model, HttpSession session){
+				return "login";
 	}
 	
 	@RequestMapping(value="/home", method=RequestMethod.POST)
-	public String doLogin(ModelMap model, @ModelAttribute(value="logindata") LoginBean logindata, BindingResult br, HttpSession session){
+	public String doLogin(ModelMap model, @Valid @ModelAttribute(value="logindata") LoginBean logindata, BindingResult br, HttpSession session){
 		if(logindata.getUsername()!=null && logindata.getPassword()!=null){
 			boolean userexist = userService.doLogin(logindata);
 			if(userexist==true){
 				return "home";
 			}
 			else{
+				model.addAttribute("authenticationFailMessage", "Either the Username or Password is incorrect. Please try again.");
 				return "login";
 			}
 		}else{

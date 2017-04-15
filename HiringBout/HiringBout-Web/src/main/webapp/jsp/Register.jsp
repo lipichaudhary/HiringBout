@@ -17,7 +17,11 @@
 		
 		
     <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="assets/includes/js/modernizr-2.6.2.min.js" />"  > </script>		
+    <script src="assets/includes/js/modernizr-2.6.2.min.js" />"  > </script>
+    
+    <!-- Include script.js in the head, before any other Javascript -->
+		<script src="assets/includes/js/script.js" />"  ></script>
+    		
     </head>
 
 <body>
@@ -29,37 +33,27 @@
     <h4 class="panel-title text-center">Register In</h4>
    </div><!-- Panel Title Ends -->
 	
+	<div id="registrationError" class="alert alert-danger Registrationformvalidation" role="alert">Please enter all the fields</div>
+	
 	<div class="panel-body">
       <div class="form-group">
-        <form id="login-form" action="registrationsuccess" method="post" role="form" style="display: block;">
+        <form id="Registration-form" action="registrationsuccess" method="post" role="form" style="display: block;" onsubmit="return ValidateRegistrationForm()">
          <div class="form-group">
-          <input type="text" name="firstname" id="fistname" tabindex="1" class="form-control" placeholder="FirstName">
+          <input type="text" name="name" id="fistname" tabindex="1" class="form-control" placeholder="First and Last Name">
          </div>
-         <div class="form-group">
-          <input type="text" name="lastname" id="lastname" tabindex="2" class="form-control" placeholder="LastName">
-		  </div>
 		  <div class="form-group">
-          <input type="text" name="emailaddress" id="emailaddress" tabindex="3" class="form-control" placeholder="Email Address">
-		  </div>
-		  <div class="form-group">
-          <input type="text" name="age" id="age" tabindex="4" class="form-control" placeholder="Age">
-		  </div>
-		  <div class="form-group">
-          <input type="text" name="collegename" id="collegename" tabindex="5" class="form-control" placeholder="College Name">
-		  </div>
-		  <div class="form-group">
-          <input type="text" name="contactnumber" id="contactnumber" tabindex="6" class="form-control" placeholder="Contact Number">
+          <input type="text" name="emailaddress" id="emailaddress" tabindex="2" class="form-control" placeholder="Email Address">
 		  </div>
           <div class="form-group">
-          <input type="text" name="accusername" id="accusername" tabindex="7" class="form-control" placeholder="Your Account User Name">
+          <input type="text" name="accusername" id="accusername" tabindex="3" class="form-control" placeholder="Your Account Username">
 		  </div>
           <div class="form-group">
-          <input type="text" name="accpassword" id="accpassowrd" tabindex="8" class="form-control" placeholder="Your Account Password">
+          <input type="text" name="accpassword" id="accpassword" tabindex="4" class="form-control" placeholder="Your Account Password">
 		  </div>
          <div class="form-group">
           <div class="row">
            <div class="col-sm-12 col-sm-offset-3">
-            <input type="submit" id="register-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Register">
+            <input type="submit" id="register-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Create An Account">
            </div>
           </div>
          </div> 
