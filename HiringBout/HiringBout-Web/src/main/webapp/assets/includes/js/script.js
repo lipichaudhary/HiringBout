@@ -12,7 +12,7 @@
 		var accpassword = document.forms["Registration-form"]["accpassword"].value;
 		var accusername = document.forms["Registration-form"]["accusername"].value;
 		if(accusername=="" || accpassword=="" || emailaddress==""){
-			documnent.getElementById('registrationError').style.display = "block";
+			document.getElementById('registrationError').style.display = "block";
 			return false;
 		}
 		
