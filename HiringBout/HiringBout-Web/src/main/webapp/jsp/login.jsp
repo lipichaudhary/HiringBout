@@ -60,10 +60,18 @@
 			<div class="panel-heading" >
 				<h4 class="panel-title text-center">Sign in</h4>
 			</div><!-- Panel Title Ends -->
+	
 		
-
+	
 		<div id="loginErrors" class="alert alert-danger loginformvalidation" role="alert">Either the Username or Password is left empty. Please enter login Credentials.</div>
-		<div id="loginErrors" class="alert alert-danger " role="alert">${authenticationFailMessage}</div>
+		<div id="authenticationFail" class="alert alert-danger" role="alert">${authenticationFailMessage}</div>
+		
+		<script language="javascript">
+		var authenticationFail = "${authenticationFailMessage}";
+		if(authenticationFail==""){
+			document.getElementById('authenticationFail').style.display = "none";	
+		}
+		</script>
 		<div class="panel-body">
 						<div class="form-group">
 								<form id="login-form" action="home" method="post" role="form" style="display: block;" onsubmit="return validateLoginForm()">
