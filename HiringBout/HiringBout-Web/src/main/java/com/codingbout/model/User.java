@@ -16,7 +16,7 @@ public class User {
 	private Long id;
 	
 	@Column(name="firstname")
-	String firstname;
+	String name;
 	
 	@Column(name="lastname")
 	String lastname;
@@ -47,12 +47,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getFirstname() {
-		return firstname;
+	public String getName() {
+		return name;
 	}
 
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getLastname() {
