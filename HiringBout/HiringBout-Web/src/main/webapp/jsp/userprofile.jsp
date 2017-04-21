@@ -50,19 +50,84 @@
 				</div> <!-- top nav closed -->
 <!-- Navigation Top HTML ends -->
 
-	<div class="container">
+ 	<div class="container">
 		<div class="row">
-			<div class="col-sm-2 ">
-				<a href="#"><image src="../assets/images/profilePlaceholder.png" alt="placeholder"/></a>
+			<div class="col-sm-2" >
+				<a href="#"><image src="../assets/images/Rishav.JPG" alt="placeholder" height="190" weight="190" class="imageBorder"></a>
 			</div>
-			<div class="col-sm-6 test-left">
-				<h2><b>Rishav Mishra<b></h2>
+			<div class="col-sm-4 text-left">
+				<div>
+					<h2>Rishav Mishra</h2>
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<input type="button" class="btn btn-primary  pull-right" value="Edit Profile"></input>
+			<div class="col-sm-6">
+				<input type="button" class="btn btn-primary pull-right" value="Edit Profile"></input>
 			</div>
 		</div>
-	</div>
+		<hr></hr>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="row">
+					<div class="col-sm-12">
+						<h6 class="pull-left">Followers</h6> <h6 class="pull-right">0</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h6 class="pull-left">Following</h6> <h6 class="pull-right">0</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h6 class="pull-left">Share Your Profile</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="#"><image src="../assets/images/facebookIcon.png" alt="facebookicon" height="25" width="25" class="pull-left profileSharefirst"></a>
+						<a href="#"><image src="../assets/images/twitterIcon.jpg" alt="twittericon" height="25" width="25" class="pull-left profileShare"></a>
+						<a href="#"><image src="../assets/images/linkedinIcon.jpg" alt="linkedinicon" height="25" width="25" class="pull-left profileShare"></a>
+						<a href="#"><image src="../assets/images/googleplusIcon.png" alt="googleplusicon" height="25" width="25" class="pull-left profileShare"></a>
+					</div>
+				</div>
+			</div>
+		<div class="col-sm-10" style="background-image: url('../assets/images/NoInfoAdded.png')">
+			<!-- <form>
+				<a href="" alt="no info added"><image src="../assets/images/NoInfoAdded.png" height="340" width="960"></a>
+			</form> -->
+			<button type="button" class="btn btn-primary btn-lg buttonCenter">Add Details</button>
+		</div>
+		</div>
+		</div>
+		<!-- <div class="row">
+		<div class="col-sm-2">
+			<h5 class="text-left">Following</h5>
+			<h5 class="text-right"><b>0<b></h5>
+		</div>
+		</div>
+		<div class="row">
+		<div class="">
+			<h5 class="col-sm-3">Share your Profile:</h5>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2">
+			<a href="#"><image src="../assets/images/facebookIcon.png" alt="facebookicon" height="25" width="25" class="pull-left profileSharefirst"></a>
+			<a href="#"><image src="../assets/images/twitterIcon.jpg" alt="twittericon" height="25" width="25" class="pull-left profileShare"></a>
+			<a href="#"><image src="../assets/images/linkedinIcon.jpg" alt="linkedinicon" height="25" width="25" class="pull-left profileShare"></a>
+			<a href="#"><image src="../assets/images/googleplusIcon.png" alt="googleplusicon" height="25" width="25" class="pull-left profileShare"></a>
+		</div>
+		
+ -->		
+		
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 		
 	<!-- First try for the online version of jQuery-->
