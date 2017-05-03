@@ -53,11 +53,11 @@
  	<div class="container">
 		<div class="row">
 			<div class="col-sm-2" >
-				<a href="#"><image src="../assets/images/Rishav.JPG" alt="placeholder" height="190" weight="190" class="imageBorder"></a>
+				<a href="#"><image src="../assets/images/profilePlaceholder.png" alt="placeholder" height="190" weight="190" class="imageBorder"></a>
 			</div>
 			<div class="col-sm-4 text-left">
 				<div>
-					<h2>Rishav Mishra</h2>
+					<h2><b>Rishav Mishra<b></h2>
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -77,12 +77,12 @@
 			<div class="col-sm-2">
 				<div class="row">
 					<div class="col-sm-12">
-						<h6 class="pull-left">Followers</h6> <h6 class="pull-right">0</h6>
+						<h6 class="pull-left">Followers</h6> <h6 class="pull-right"><b>0</b></h6>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<h6 class="pull-left">Following</h6> <h6 class="pull-right">0</h6>
+						<h6 class="pull-left">Following</h6> <h6 class="pull-right"><b>0</b></h6>
 					</div>
 				</div>
 				<div class="row">
@@ -99,11 +99,10 @@
 					</div>
 				</div>
 			</div>
-		<div class="col-sm-10" style="background-image: url('../assets/images/NoInfoAdded.png')">
-			<!-- <form>
-				<a href="" alt="no info added"><image src="../assets/images/NoInfoAdded.png" height="340" width="960"></a>
-			</form> -->
-			<button type="button" class="btn btn-primary btn-lg buttonCenter">Add Details</button>
+		<div class="col-sm-10">
+			<form>
+				<a href="" alt="no info added"><image src="../assets/images/NoProfile.jpg" height="340" width="960"></a>
+			</form> 
 		</div>
 		</div>
 		</div>
