@@ -25,25 +25,101 @@
 
 <body>
 <!-- Navigation Top HTML Starts -->
-			<div class="navbar navbar-top-fixed body-padding">
+<div class="navbar navbar-top-fixed body-padding">
 				
-					<div class="container" id="forCollapsed">
+		<div class="container" id="forCollapsed">
 					
-						<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-						<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	
+		<a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Your Logo"></a>
+		
+		<div class="nav-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav nav-pills">
+				<li class="active">
+					<a href="#">Dashboard</a>
+				</li>
+				
+				<li>
+					<a href="#">Contests</a>
+				</li>
+				
+				<li>
+					<a href="#">Jobs</a>
+				</li>
+				
+				<li>
+					<a href="#">Blog</a>
+				</li>
+				
+			<!-- 	<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+					
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Web Design</a>
+						</li>
+						
+						<li>
+							<a href="#">Web Development</a>
+						</li>
+						
+						<li>
+							<a href="#">SEO</a>
+						</li>
+						
+						<li class="divider"></li>
+						
+						<li class="dropdown-header">More Services</li>
+						
+						<li>
+							<a href="#">Content Creation</a>
+						</li>
+						
+						<li>
+							<a href="#">Social Media Marketing</a>
+						</li>
+					</ul>end dropdown-menu
+				</li> -->
+			</ul>
 			
-						<a class="navbar-brand" href="/"><img src="assets/images/CODELOG.png"></a>
+			<form class="navbar-form pull-left">
+				<input type="text" class="form-control styleForSearchInput" placeholder="Search this site..." id="searchInput" >
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form>  <!-- end navbar-form -->
+
+	
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+					
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+						</li>
 						
-						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+						</li>
 						
-						<div>
-							<h4 class="nav navbar-nav pull-right">New to codingBout? <a href="/HiringBout-Web/registrationform" class="btn btn-large btn-link">Register</a> </h4>
-						</div>
-						</div> <!-- CollapseNav closed -->
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Feedback</a>
+						</li>
+						
+						<li class="divider"></li>
+						
+						<li>
+							<a href="/HiringBout-Web/login"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+						</li>
+					</ul>
+				</li>
+			</ul><!-- end nav pull-right -->
+		</div><!-- end nav-collapse -->
+	
 									
 					</div> <!-- forCollapsed container closed-->
 				
@@ -64,14 +140,13 @@
 				<input type="button" class="btn btn-primary pull-right" value="Edit Profile"></input>
 			</div>
 		</div>
-		<hr></hr>
-			</div>
-		</div>
+	</div>
+	<hr></hr>
 		
 		
 		
 		
-		
+		<div>
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-2">
@@ -106,6 +181,8 @@
 		</div>
 		</div>
 		</div>
+		</div>
+		
 		<!-- <div class="row">
 		<div class="col-sm-2">
 			<h5 class="text-left">Following</h5>
