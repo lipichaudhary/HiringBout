@@ -23,7 +23,7 @@
 			
 	</head>
 	
-	<body>
+	<body style = "background-image: url(assets/images/coding_img.jpg)">
 
 <!-- Navigation Top HTML Starts -->
 			<div class="navbar navbar-top-fixed body-padding">
@@ -37,7 +37,7 @@
 							<span class="icon-bar"></span>
 						</button>
 			
-						<a class="navbar-brand" href="/"><img src="assets/images/CBLOGO.png"></a>
+						<a class="navbar-brand" href="/"><img src="assets/images/CBLOGO.jpg"></a>
 						
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
