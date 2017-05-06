@@ -14,17 +14,276 @@ Notes:	 Hand coded for Udemy.com
    Layout
    -------------------------------------- */
 
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
 
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+
+.panelstyle{
+   max-width:400px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:100px;
+   } 
+
+.content {
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}  
+
+/* -----------
+   body 
+   ----------- */
+body {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../../images/coding_img.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+} 
+
+.pcL {
+   text-align:center;
+   color:white;
+}
+
+.pcRB {
+	text-align:center;
+    color:white;
+	font-weight: bold;
+}
+
+.fContStyle{
+	width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+/*  challenge page */
+.challenge-content{
+display:inline-block;
+vertical-align:top;
+width:535px;   /* EARLIER IT WAS 226PX */
+background-color:#fff;
+position:relative;
+min-height: 350px; /* ORIGINAL HEGHT = 320 PX*/
+margin:10px 0 7px 10px;
+margin-top: 50px;
+}
+
+.challenge-button
+{
+position:absolute;
+right:0;
+left:0;
+margin:0 auto;
+bottom:20px;
+font-family:'Open Sans',sans-serif;
+width:130px;
+padding:5px 5px;
+box-sizing:border-box;
+text-transform:uppercase;
+font-size:14px
+}
+	
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+
+footer{
+	height: 70px;
+	width: 100%;
+	color: #fff;
+	background-color: #D3D3D3;
+	position: absolute;
+	bottom: 0;
+}
+
+#foot {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+div.foot-content {
+	float: left;
+	margin-top: 25px;
+}
+
+a.foot-content {
+    margin-right: 50px;
+}
+
+
+
+
+
+
+#login-form{
+margin-top: 15%;
+margin-left: 25%;
+margin-right:25%;
+width: 50%;
+}
+
+.logincheckboxlabel {
+   width: 28px;
+   height: 28px;
+   position: absolute;
+   top: 1px;
+   left: 1px;
+   background-color: white;
+   content: '';
+   border: 3px solid #000;
+   border-top: none;
+   border-right: none;
+   transform: rotate(-45deg);
+   top: 8px;
+   left: 8px;
+   opacity: 0;
+}
+
+.logincheckbox label:before {
+   content: '';
+   width: 9px;
+   height: 5px;
+   border: 3px solid #000;
+   position: absolute;
+}
+
+.topbar{
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	text-align: center;
+}
+
+
+ 
+
  .styleForSearchInput{
  	width:200px;
  }
@@ -41,21 +300,7 @@ Notes:	 Hand coded for Udemy.com
    margin-top:100px;
    }
    
-   .footer {
-  position: fixed;
-  margin-top: 2%;
-  height: 150 px;
-  text-align: center;
-  font-size: 0.8em;
-  bottom: 0;
-}
-.footer ul {
-  list-style-type: none;
-}
-.footer ul li {
-  display: inline;
-  margin: 0 15px;
-}
+ 
    
 .loginformvalidation{
     display: none;
