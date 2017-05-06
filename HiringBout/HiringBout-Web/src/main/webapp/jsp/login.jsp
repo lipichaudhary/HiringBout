@@ -37,7 +37,7 @@
 							<span class="icon-bar"></span>
 						</button>
 			
-						<a class="navbar-brand" href="/"><img src="assets/images/CODELOG.png"></a>
+						<a class="navbar-brand" href="/"><img src="assets/images/CBLOGO.png"></a>
 						
 						<div class="nav-collapse collapse navbar-responsive-collapse" id="collapsedNav">
 						
@@ -54,12 +54,11 @@
 <!-- Main Body HTML starts -->				
 			<div class="container" id="main">   <!-- main body container. Top nav and footer is kept outside it. -->
 
-		<div class="row">
-		<div class="panel panel-default panelstyle" id="panel">
+		 <div class="fContStyle">
 	
-			<div class="panel-heading" >
-				<h4 class="panel-title text-center">Sign in</h4>
-			</div><!-- Panel Title Ends -->
+		<div class="form-group">
+			<form id="login-form" action="home" method="post" role="form" style="display: block;">
+				<h4 class="pcL">Sign in</h4>
 	
 		
 	
@@ -72,35 +71,38 @@
 			document.getElementById('authenticationFail').style.display = "none";	
 		}
 		</script>
-		<div class="panel-body">
-						<div class="form-group">
-								<form id="login-form" action="home" method="post" role="form" style="display: block;" onsubmit="return validateLoginForm()">
-									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username">
-									</div>
-									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-									</div>
-									<div class="form-group">
-										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-										<label for="remember"> Remember Me</label>
-									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-12 col-sm-offset-3">
-												<input type="submit" id="login-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Log In">
-											</div>
-										</div>
-									</div> 
-								</form>
+		
+	        <div class="form-group">
+          <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" style="width: 350px; margin:0 auto;"/>
+                </div>
+                <div class="form-group">
+          <input type="text" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" style="width: 350px; margin:0 auto;"/>
+		        </div>
+				<div class="form-group">
+						<div class="" style="width: 350px; margin:0 auto;">
+								<input type="submit" id="login-submit" tabindex="4" class="form-control btn btn-primary btn-lg btn-block btn-success active" value="Log In"  >
 						</div>
-							
-	</div> <!-- panel ends -->
-	</div> <!-- div ends --> 	
-	</div>	<!-- row ends -->
+				</div> 
+			</form>
+		</div>
+	</div>
+</div> <!--  main body container closed -->
+
+<!-- footer starts -->	
+<footer>
+    <div id="foot">
+	      <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >About Us </a>
+		  </div>
+		  <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >Contact Us </a>
+		  </div>
+		  <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >Wiki </a>
+		  </div>
+	</div>
+</footer>	
 			
-		 	
-			</div> <!--  main container closed -->
 		
 			
 	</body>
