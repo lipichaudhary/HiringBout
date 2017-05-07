@@ -22,7 +22,7 @@
 		
 </head>
 	
-<body>	
+<body style = "background-image: url(assets/images/background.jpg)">	
 	<div class="container" id="main">
 		<div class="navbar navbar-fixed-top body-padding">
 		<div class="container">
@@ -34,7 +34,7 @@
 			<span class="icon-bar"></span>
 		</button>
 	
-		<a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Your Logo"></a>
+		<a class="navbar-brand" href="/"><img src="assets/images/CBLOGO.jpg" alt="Your Logo"></a>
 		
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav nav-pills">
@@ -119,12 +119,67 @@
 		</div><!-- end row -->
 
 	
-		</div><!-- end container -->
+		
 
-<h4> Hi ${name}</h4>
-<footer>
+
+<!-- thumbnail-->
+<div class="row">
+<div class="col-sm-6 col-md-4">
+
+
+	<div class="challenge-content">
+			<div class="thumbnail" >
+					<img src="assets/images/MEXICO.png" alt="">
+				<div class="caption">
+						<h3>Coding Competition </h3>
+						<p>Giom JAVA Developer</p>
+				</div>
+			</div>
+						<p><a href="#" class="btn btn-primary challenge-button" role="button">Start Now</a> </p>
+	</div>
 	
+ </div> <!-- class col-sm-6 col-sm-4 ends-->
+<!--</div>    <!-- class row ends please end the row here only and only if you want only one thumbnail in one row-->
+ 
+ <!--<div class="row">-->
+   <div class="col-sm-6 col-md-4">
+
+    <!-- another thumbnail -->
+    <div class="challenge-content">
+			<div class="thumbnail" >
+					<img src="assets/images/javaCB.png" alt="">
+				<div class="caption">
+					<h3>Coding Competition </h3>
+					<p>Giom JAVA Developer</p>
+				</div>
+			</div>
+					<p><a href="#" class="btn btn-primary challenge-button" role="button">Start Now</a> </p>
+	</div>
+ <!-- thumbnail ends -->
+ 
+ </div> <!-- class col-sm-6 ends-->
+ 
+</div>    <!-- class row ends-->
+
+<!-- All Thumbnail Ends-->
+
+</div>  <!-- end container -->
+</div><!-- end container -->
+
+<footer>
+    <div id="foot">
+	      <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >About Us </a>
+		  </div>
+		  <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >Contact Us </a>
+		  </div>
+		  <div class = "foot-content">
+		       <a class="foot-content footer-link" href="" >Wiki </a>
+		  </div>
+	</div>
 </footer>
+	
 	
 	
 	
