@@ -18,13 +18,13 @@
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script src="assets/includes/js/modernizr-2.6.2.min.js"></script>
 		
 </head>
 	
 <body>	
 	<div class="container" id="main">
-		<div class="navbar navbar-fixed-top">
+		<div class="navbar navbar-fixed-top body-padding">
 		<div class="container">
 		
 		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -53,36 +53,6 @@
 				<li>
 					<a href="#">Blog</a>
 				</li>
-				
-			<!-- 	<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
-					
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Web Design</a>
-						</li>
-						
-						<li>
-							<a href="#">Web Development</a>
-						</li>
-						
-						<li>
-							<a href="#">SEO</a>
-						</li>
-						
-						<li class="divider"></li>
-						
-						<li class="dropdown-header">More Services</li>
-						
-						<li>
-							<a href="#">Content Creation</a>
-						</li>
-						
-						<li>
-							<a href="#">Social Media Marketing</a>
-						</li>
-					</ul>end dropdown-menu
-				</li> -->
 			</ul>
 			
 			<form class="navbar-form pull-left">
@@ -101,7 +71,7 @@
 						</li>
 						
 						<li>
-							<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+							<a href="/HiringBout-Web/updateprofile"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
 						</li>
 						
 						<li>
