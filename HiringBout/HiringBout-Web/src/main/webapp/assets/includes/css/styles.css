@@ -34,6 +34,10 @@ Notes:	 Hand coded for Udemy.com
    	margin 20px;
    }
    
+   .default-row-spacer{
+   	margin-top: 10px;
+   }
+   
    .panelstyle{
    max-width:400px;
    margin-left:auto;
@@ -56,6 +60,45 @@ Notes:	 Hand coded for Udemy.com
   display: inline;
   margin: 0 15px;
 }
+
+.imageBorder {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 180px;
+    width:180px; 
+}
+
+.verticalLine {
+  border-left: thin black;
+}
+
+div.vertical-line{
+      width: 1px; /* Line width */
+      background-color: black; /* Line color */
+      height: 100%; /* Override in-line if you want specific height. */
+      float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+    }
+
+.profileSharefirst{
+	margin-right:10px;
+}
+
+.mediumtopbottom{
+	margin: 1px:
+}
+
+.profileShare{	
+   /* max-width:400px; */
+   margin-left:10px;
+   margin-right:10px;
+   /* margin-top:100px; */
+}
+
+.textMargin{
+	margin: 0 15px;
+}
    
 .loginformvalidation{
     display: none;
@@ -63,6 +106,18 @@ Notes:	 Hand coded for Udemy.com
 
 .Registrationformvalidation{
     display: none;
+}
+
+.noGutter{
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.buttonCenter{
+	margin-left:450px;
+    margin-right:100px;
+    margin-top:170px;
+    margin-width:100px;
 }
    
 /* --------------------------------------

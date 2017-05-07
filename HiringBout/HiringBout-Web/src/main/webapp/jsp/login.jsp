@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>CodingBout</title>
 	<!-- Mobile viewport optimized -->
+	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
@@ -16,10 +16,7 @@
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="assets/includes/js/modernizr-2.6.2.min.js" />"  ></script>	
-		
-		<!-- Include script.js in the head, before any other Javascript -->
-		<script src="assets/includes/js/script.js" />"  ></script>
+		<script src="assets/includes/js/modernizr-2.6.2.min.js"></script>	
 			
 	</head>
 	
@@ -52,7 +49,7 @@
 <!-- Navigation Top HTML ends -->
 			
 <!-- Main Body HTML starts -->				
-			<div class="container" id="main">   <!-- main body container. Top nav and footer is kept outside it. -->
+		<div class="container" id="main">   <!-- main body container. Top nav and footer is kept outside it. -->
 
 		<div class="row">
 		<div class="panel panel-default panelstyle" id="panel">
@@ -67,6 +64,7 @@
 		<div id="authenticationFail" class="alert alert-danger" role="alert">${authenticationFailMessage}</div>
 		
 		<script language="javascript">
+		//Hide the div with id="authenticationFailMessage" if authentication dose not fails. 
 		var authenticationFail = "${authenticationFailMessage}";
 		if(authenticationFail==""){
 			document.getElementById('authenticationFail').style.display = "none";	
@@ -101,7 +99,20 @@
 			
 		 	
 			</div> <!--  main container closed -->
+			
+	<!-- All Javascript at the bottom of the page for faster page loading -->
 		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="assets/includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="assets/includes/js/script.js"></script>		
 			
 	</body>
 </html>
