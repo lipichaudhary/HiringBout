@@ -1,6 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -16,11 +13,8 @@
 		<link href="assets/includes/css/styles.css" rel="stylesheet">
 		
 		
-    <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="assets/includes/js/modernizr-2.6.2.min.js" />"  > </script>
-    
-    <!-- Include script.js in the head, before any other Javascript -->
-		<script src="assets/includes/js/script.js" />"  ></script>
+  <!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="assets/includes/js/modernizr-2.6.2.min.js"></script>
     		
     </head>
 
@@ -65,5 +59,20 @@
 	  </div>
 	  </div>
 	  
+	  
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="assets/includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="assets/includes/js/script.js"></script>
+
 	</body>
 </html>
